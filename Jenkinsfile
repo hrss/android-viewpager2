@@ -8,7 +8,8 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh 'pwd'
+        sh '''pwd
+ls'''
       }
     }
   }
