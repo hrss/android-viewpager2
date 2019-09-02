@@ -9,7 +9,8 @@ pipeline {
     stage('error') {
       steps {
         sh '''pwd
-ls'''
+ls
+sh gradlew build'''
       }
     }
   }
